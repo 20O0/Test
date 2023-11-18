@@ -147,28 +147,28 @@ local Button2 = TPTab:CreateButton({
 local Button3 = TPTab:CreateButton({
    Name = "Kung Fu Boss",
    Callback = function()
-      -- Teleport3game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-901.599365234375, 23.786710739135742, -2021.4617919921875)
+       Teleport3game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-901.599365234375, 23.786710739135742, -2021.4617919921875)
    end,
 })
 
 local Button4 = TPTab:CreateButton({
    Name = "Equipment",
    Callback = function()
-      -- Teleport4game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-599.9330444335938, 23.37848663330078, -1116.7569580078125)
+       Teleport4game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-599.9330444335938, 23.37848663330078, -1116.7569580078125)
    end,
 })
 
 local Button5 = TPTab:CreateButton({
    Name = "Equipment",
    Callback = function()
-      -- Teleport5game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-380.28167724609375, 9.355032920837402, -664.1370239257812)
+        Teleport5game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-380.28167724609375, 9.355032920837402, -664.1370239257812)
    end,
 })
 
 local Button6 = TPTab:CreateButton({
    Name = "Equipment",
    Callback = function()
-      -- Teleport6game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-570.814697265625, 8.952610969543457, -519.2026977539062)
+       Teleport6game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-570.814697265625, 8.952610969543457, -519.2026977539062)
    end,
 })
 
