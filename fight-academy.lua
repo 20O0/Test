@@ -31,12 +31,12 @@ local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "You executed the script",
-   Content = "Very cool gui",
+   Content = "Alone gui",
    Duration = 5,
    Image = 13047715178,
    Actions = {
       Ignore = {
-         Name = "Okay!",
+         Name = "Okay",
          Callback = function()
             print("The user tapped Okay!")
          end
@@ -71,7 +71,7 @@ local Button = MainTab:CreateButton({
 })
 
 local ButtonAutoHit = MainTab:CreateButton({
-   Name = "Auto Hit 'Only when combat item equipped'",
+   Name = "Auto Hit 'Only when combat item equipped' btw its kung fu style",
    Callback = function()
       local args = {
          [1] = game:GetService("Players").LocalPlayer
@@ -105,16 +105,6 @@ local SliderJumpPower = MainTab:CreateSlider({
    end,
 })
 
-local Dropdown = MainTab:CreateDropdown({
-   Name = "Select Area",
-   Options = {"Starter World","Pirate Island","Pineapple Paradise"},
-   CurrentOption = {"Starter World"},
-   MultipleOptions = false,
-   Flag = "dropdownarea",
-   Callback = function(Option)
-      print(Option)
-   end,
-})
 
 local Input = MainTab:CreateInput({
    Name = "Walkspeed",
@@ -138,35 +128,35 @@ local Button1 = TPTab:CreateButton({
 })
 
 local Button2 = TPTab:CreateButton({
-   Name = "Karate boss",
+   Name = "Gym 2",
    Callback = function()
       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1047.581787109375, 10.377622604370117, -1193.7086181640625)
    end,
 })
 
 local Button3 = TPTab:CreateButton({
-   Name = "Kung Fu Boss",
+   Name = "Karate boss",
    Callback = function()
        Teleport3game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-901.599365234375, 23.786710739135742, -2021.4617919921875)
    end,
 })
 
 local Button4 = TPTab:CreateButton({
-   Name = "Equipment",
+   Name = "Kung-fu boss",
    Callback = function()
-       Teleport4game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-599.9330444335938, 23.37848663330078, -1116.7569580078125)
+      Teleport4game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-599.9330444335938, 23.37848663330078, -1116.7569580078125)
    end,
 })
 
 local Button5 = TPTab:CreateButton({
    Name = "Equipment",
    Callback = function()
-        Teleport5game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-380.28167724609375, 9.355032920837402, -664.1370239257812)
+       Teleport5game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-380.28167724609375, 9.355032920837402, -664.1370239257812)
    end,
 })
 
 local Button6 = TPTab:CreateButton({
-   Name = "Equipment",
+   Name = "Restaurant",
    Callback = function()
        Teleport6game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-570.814697265625, 8.952610969543457, -519.2026977539062)
    end,
