@@ -137,29 +137,53 @@ local Button2 = TPTab:CreateButton({
 local Button3 = TPTab:CreateButton({
    Name = "Karate boss",
    Callback = function()
-       Teleport3game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-901.599365234375, 23.786710739135742, -2021.4617919921875)
+      -- Teleport3game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-901.599365234375, 23.786710739135742, -2021.4617919921875)
    end,
 })
 
 local Button4 = TPTab:CreateButton({
    Name = "Kung-fu boss",
    Callback = function()
-      Teleport4game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-599.9330444335938, 23.37848663330078, -1116.7569580078125)
+      -- Teleport4game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-599.9330444335938, 23.37848663330078, -1116.7569580078125)
    end,
 })
 
 local Button5 = TPTab:CreateButton({
    Name = "Equipment",
    Callback = function()
-       Teleport5game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-380.28167724609375, 9.355032920837402, -664.1370239257812)
+      -- Teleport5game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-380.28167724609375, 9.355032920837402, -664.1370239257812)
    end,
 })
 
 local Button6 = TPTab:CreateButton({
    Name = "Restaurant",
    Callback = function()
-       Teleport6game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-570.814697265625, 8.952610969543457, -519.2026977539062)
+      -- Teleport6game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-570.814697265625, 8.952610969543457, -519.2026977539062)
    end,
 })
 
 local TPTabMisc = Window:CreateTab("🎲 Misc", nil)
+
+local Button1 = Tab:CreateButton({
+   Name = "UPDATE SOON",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local TabInfo = Window:CreateTab("ℹ️ Info", nil) -- Title, Image
+local Button1 = Tab:CreateButton({
+   Name = "Discord Link",
+   Callback = function()
+   toclipboard("https://discord.gg/ueXAyQFV7q")
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button2 = Tab:CreateButton({
+   Name = "Developer Username:g.0k",
+   Callback = function()
+   toclipboard("g.0k")
+   -- The function that takes place when the button is pressed
+   end,
+   })
