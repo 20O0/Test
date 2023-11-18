@@ -73,10 +73,10 @@ if _G.infinJumpStarted == nil then
 end
    end,
 })
-while wait(-1) do
 local Button = MainTab:CreateButton({
    Name = "Auto Hit 'Only when combat item in equiped' ",
    Callback = function()
+            while wait(-1)do
    local args = {
     [1] = game:GetService("Players").LocalPlayer
 }
